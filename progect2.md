@@ -1,9 +1,10 @@
 # datasciencecoursera
 #CW for coursra
 #write an R function that is able to cache potentially time-consuming computations
-
 	
-##the code
+	## A pair of functions that cache the inverse of a matrix
+
+
 ## Creates a special matrix object that can cache its inverse
 makeCacheMatrix <- function( m = matrix() ) {
 
@@ -66,5 +67,4 @@ cacheSolve <- function(x, ...) {
     ## Return the matrix
     m
 }
-
 	
